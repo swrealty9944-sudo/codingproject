@@ -1,0 +1,3 @@
+-keep class com.macro.app.core.** { *; }
+-keepclassmembers class com.macro.app.core.Action { *; }
+-keepclassmembers enum com.macro.app.core.ActionType { *; }

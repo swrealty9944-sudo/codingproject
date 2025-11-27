@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MacroApp</string>
+
+    <string name="action_list_title">액션 목록</string>
+    <string name="add_action">액션 추가</string>
+    <string name="delete_action">삭제</string>
+    <string name="edit_action">수정</string>
+    <string name="clear_all">전체 삭제</string>
+
+
+    <string name="touch_title">터치 설정</string>
+    <string name="swipe_title">스와이프 설정</string>
+    <string name="coordinate_x">X 좌표</string>
+    <string name="coordinate_y">Y 좌표</string>
+    <string name="coordinate_input">좌표 입력</string>
+    <string name="pick_coordinate">좌표 선택</string>
+    <string name="start_coordinate">시작 좌표</string>
+    <string name="end_coordinate">종료 좌표</string>
+    <string name="duration_ms">지속시간(ms)</string>
+    <string name="touch_screen_to_select">화면을 터치하여 좌표를 선택하세요</string>
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+
+    <string name="image_search_title">Image Search</string>
+    <string name="add_template">Add Template</string>
+    <string name="matching_threshold">Matching Threshold</string>
+    <string name="threshold_percentage">%d%%</string>
+    <string name="search_mode">Search Mode</string>
+    <string name="wait_until_found">Wait Until Found</string>
+    <string name="check_once">Check Once</string>
+    <string name="wait_until_not_found">Wait Until Not Found</string>
+    <string name="tap_when_found">Tap when found</string>
+    <string name="saved_templates">Saved Templates</string>
+    <string name="no_templates">No templates saved</string>
+    <string name="template_saved">Template saved</string>
+    <string name="template_deleted">Template deleted</string>
+    <string name="select_image">Select Image</string>
+    <string name="image_search_timeout">Image search timeout</string>
+    <string name="image_not_found">Image not found</string>
+    <string name="image_found">Image found (%.0f%% match)</string>
+
+    <string name="condition_title">조건 설정</string>
+    <string name="condition_type">조건 타입</string>
+    <string name="condition_description">조건 설명</string>
+    <string name="add_condition">조건 추가</string>
+    <string name="time_elapsed">시간 경과</string>
+    <string name="time_until">특정 시간까지</string>
+    <string name="image_found_cond">이미지 발견</string>
+    <string name="image_not_found_cond">이미지 미발견</string>
+    <string name="count_reached">카운트 도달</string>
+    <string name="and_condition">AND 조건</string>
+    <string name="or_condition">OR 조건</string>
+    <string name="value_1">값 1</string>
+    <string name="value_2">값 2</string>
+    <string name="condition_timeout">타임아웃 (ms)</string>
+    <string name="check_interval">체크 간격 (ms)</string>
+
+    <string name="select_region">영역 선택</string>
+    <string name="full_screen">전체 화면</string>
+    <string name="region_info">영역: (%1$d, %2$d) %3$dx%4$d</string>
+    <string name="tap_on_found">발견 시 터치</string>
+    <string name="play_sound">소리 재생</string>
+    <string name="test_search">테스트</string>
+    <string name="on_found_action">발견 시 동작</string>
+    <string name="on_not_found_action">미발견 시 동작</string>
+    <string name="jump_to_action">점프할 액션 번호</string>
+    <string name="save">저장</string>
+    <string name="change_template">템플릿 변경</string>
+    <string name="select_template">템플릿을 선택하세요</string>
+    <string name="clear_region">영역 지우기</string>
+    <string name="drag_to_select">영역을 드래그하여 선택하세요</string>
+
+    <string-array name="action_options">
+        <item>계속</item>
+        <item>중지</item>
+        <item>점프</item>
+    </string-array>
+
+    <string-array name="search_modes">
+        <item>한 번만 검색</item>
+        <item>발견까지 대기</item>
+        <item>사라질 때까지 대기</item>
+    </string-array>
+</resources>

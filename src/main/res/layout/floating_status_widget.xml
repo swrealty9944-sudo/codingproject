@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:alpha="0.8"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/floating_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="실행중..."
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="(탭하여 숨기기)"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:alpha="0.7" />
+
+</LinearLayout>

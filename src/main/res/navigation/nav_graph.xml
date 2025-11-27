@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/actionListFragment">
+
+    <fragment
+        android:id="@+id/actionListFragment"
+        android:name="com.macro.app.ui.ActionListFragment"
+        android:label="@string/action_list_title">
+        <action
+            android:id="@+id/action_list_to_image_search"
+            app:destination="@id/imageSearchFragment" />
+        <action
+            android:id="@+id/action_list_to_condition"
+            app:destination="@id/conditionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/imageSearchFragment"
+        android:name="com.macro.app.ui.ImageSearchFragment"
+        android:label="@string/image_search_title">
+        <action
+            android:id="@+id/action_imageSearch_to_actionList"
+            app:destination="@id/actionListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/conditionFragment"
+        android:name="com.macro.app.ui.ConditionFragment"
+        android:label="@string/condition_title">
+        <action
+            android:id="@+id/action_condition_to_actionList"
+            app:destination="@id/actionListFragment" />
+    </fragment>
+
+</navigation>
